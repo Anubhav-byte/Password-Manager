@@ -24,8 +24,8 @@ public class PassView extends AppCompatActivity {
         else{
 
             while(cs.moveToNext()){
-                st.append("Website: "+cs.getString(0)+"\n");
-                st.append("UserId:  " + cs.getString(1)+"\n");
+                st.append("UserId: "+cs.getString(0)+"\n");
+                st.append("Website:  " + cs.getString(1)+"\n");
                 st.append("Password: "+ cs.getString(2)+ "\n");
                 st.append("\n");
             }
