@@ -42,8 +42,8 @@ public class Dbmanager extends SQLiteOpenHelper {
     public String addRecord(String user, String web ,String password){
         SQLiteDatabase db= this.getWritableDatabase();
         ContentValues cv = new ContentValues();
-        cv.put("User_id" , user);
         cv.put("Website",web);
+        cv.put("User_id" , user);
         cv.put("Password", password);
 
         long res=db.insert(TABLE_NAME,null, cv);
