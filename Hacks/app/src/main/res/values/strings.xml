@@ -2,7 +2,7 @@
     <string name="app_name">Password Manager</string>
     <string name="generate_password">Generate Password</string>
     <string name="reset">Reset</string>
-    <string name="enter">Enter UserID </string>
+    <string name="enter">Enter Website Name </string>
     <string name="view">View Password</string>
-    <string name="enter_website_name">Enter Website name</string>
+    <string name="enter_user_name">Enter User Id</string>
 </resources>
