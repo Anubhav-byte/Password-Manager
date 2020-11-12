@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Password Manager</string>
+    <string name="generate_password">Generate Password</string>
+    <string name="reset">Reset</string>
+    <string name="enter">Enter UserID </string>
+    <string name="view">View Password</string>
+    <string name="enter_website_name">Enter Website name</string>
+</resources>
