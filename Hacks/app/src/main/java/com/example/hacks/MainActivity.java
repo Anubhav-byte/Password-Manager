@@ -2,6 +2,7 @@ package com.example.hacks;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -27,5 +28,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent= new Intent(MainActivity.this, PassView.class);
         startActivity(intent);
 
+    }
+
+    public void close(View view) {
+        finish();
     }
 }

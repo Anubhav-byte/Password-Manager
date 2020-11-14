@@ -26,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:fadingEdge="horizontal"
         android:hint="Enter Password Length"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,10 +38,13 @@
 
     <Button
         android:id="@+id/pgenerate"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="152dp"
         android:layout_height="51dp"
+        android:background="#03A9F4"
         android:onClick="Password"
         android:text="@string/generate_password"
+        android:textColor="#0E0E0E"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,8 +56,9 @@
 
     <ImageButton
         android:id="@+id/backButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:background="#2196F3"
         android:onClick="back"
         app:layout_constraintBottom_toTopOf="@+id/pView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,6 +72,7 @@
         android:id="@+id/saveButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#03A9F4"
         android:onClick="save"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -77,10 +83,13 @@
 
     <Button
         android:id="@+id/reset"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#03A9F4"
         android:onClick="reset"
         android:text="@string/reset"
+        android:textColor="#090909"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.213"
